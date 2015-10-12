@@ -1,4 +1,4 @@
-# Mac Icon Tester
+# Mac Icon Size Tester
 
 ![image](http://i.imgur.com/WmNDR8M.png)
 
