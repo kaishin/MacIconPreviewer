@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Icon Size Tester.xcodeproj">
+      location = "self:/Users/kaishin/Developer/Mac/Projects/MacIconPreviewer/MacIconPreviewer.xcodeproj">
    </FileRef>
 </Workspace>

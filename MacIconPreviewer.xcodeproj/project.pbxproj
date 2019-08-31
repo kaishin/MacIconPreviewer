@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0049D8C21BA6C1A100FFBD93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0049D8C11BA6C1A100FFBD93 /* AppDelegate.swift */; };
-		0049D8C41BA6C1A100FFBD93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0049D8C31BA6C1A100FFBD93 /* ViewController.swift */; };
-		0049D8C61BA6C1A100FFBD93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0049D8C51BA6C1A100FFBD93 /* Assets.xcassets */; };
-		0049D8C91BA6C1A100FFBD93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0049D8C71BA6C1A100FFBD93 /* Main.storyboard */; };
+		00146EAC231A93AD00F07429 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00146EA6231A93AD00F07429 /* ViewController.swift */; };
+		00146EAD231A93AD00F07429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00146EA7231A93AD00F07429 /* Assets.xcassets */; };
+		00146EAE231A93AD00F07429 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00146EA8231A93AD00F07429 /* Main.storyboard */; };
+		00146EAF231A93AD00F07429 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00146EAA231A93AD00F07429 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0049D8BE1BA6C1A100FFBD93 /* Icon Size Tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Icon Size Tester.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0049D8C11BA6C1A100FFBD93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0049D8C31BA6C1A100FFBD93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0049D8C51BA6C1A100FFBD93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0049D8C81BA6C1A100FFBD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0049D8CA1BA6C1A100FFBD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00146EA6231A93AD00F07429 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00146EA7231A93AD00F07429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00146EA9231A93AD00F07429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00146EAA231A93AD00F07429 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00146EAB231A93AD00F07429 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0049D8BE1BA6C1A100FFBD93 /* MacIconPreviewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacIconPreviewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,10 +33,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00146EA5231A93AD00F07429 /* MacIconPreviewer */ = {
+			isa = PBXGroup;
+			children = (
+				00146EA6231A93AD00F07429 /* ViewController.swift */,
+				00146EA7231A93AD00F07429 /* Assets.xcassets */,
+				00146EA8231A93AD00F07429 /* Main.storyboard */,
+				00146EAA231A93AD00F07429 /* AppDelegate.swift */,
+				00146EAB231A93AD00F07429 /* Info.plist */,
+			);
+			path = MacIconPreviewer;
+			sourceTree = "<group>";
+		};
 		0049D8B51BA6C1A100FFBD93 = {
 			isa = PBXGroup;
 			children = (
-				0049D8C01BA6C1A100FFBD93 /* Icon Size Tester */,
+				00146EA5231A93AD00F07429 /* MacIconPreviewer */,
 				0049D8BF1BA6C1A100FFBD93 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,29 +56,17 @@
 		0049D8BF1BA6C1A100FFBD93 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0049D8BE1BA6C1A100FFBD93 /* Icon Size Tester.app */,
+				0049D8BE1BA6C1A100FFBD93 /* MacIconPreviewer.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		0049D8C01BA6C1A100FFBD93 /* Icon Size Tester */ = {
-			isa = PBXGroup;
-			children = (
-				0049D8C11BA6C1A100FFBD93 /* AppDelegate.swift */,
-				0049D8C31BA6C1A100FFBD93 /* ViewController.swift */,
-				0049D8C51BA6C1A100FFBD93 /* Assets.xcassets */,
-				0049D8C71BA6C1A100FFBD93 /* Main.storyboard */,
-				0049D8CA1BA6C1A100FFBD93 /* Info.plist */,
-			);
-			path = "Icon Size Tester";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0049D8BD1BA6C1A100FFBD93 /* Icon Size Tester */ = {
+		0049D8BD1BA6C1A100FFBD93 /* MacIconPreviewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0049D8CD1BA6C1A100FFBD93 /* Build configuration list for PBXNativeTarget "Icon Size Tester" */;
+			buildConfigurationList = 0049D8CD1BA6C1A100FFBD93 /* Build configuration list for PBXNativeTarget "MacIconPreviewer" */;
 			buildPhases = (
 				0049D8BA1BA6C1A100FFBD93 /* Sources */,
 				0049D8BB1BA6C1A100FFBD93 /* Frameworks */,
@@ -76,9 +76,9 @@
 			);
 			dependencies = (
 			);
-			name = "Icon Size Tester";
+			name = MacIconPreviewer;
 			productName = "Icon Size Tester";
-			productReference = 0049D8BE1BA6C1A100FFBD93 /* Icon Size Tester.app */;
+			productReference = 0049D8BE1BA6C1A100FFBD93 /* MacIconPreviewer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0049D8B91BA6C1A100FFBD93 /* Build configuration list for PBXProject "Icon Size Tester" */;
+			buildConfigurationList = 0049D8B91BA6C1A100FFBD93 /* Build configuration list for PBXProject "MacIconPreviewer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0049D8BD1BA6C1A100FFBD93 /* Icon Size Tester */,
+				0049D8BD1BA6C1A100FFBD93 /* MacIconPreviewer */,
 			);
 		};
 /* End PBXProject section */
@@ -119,8 +119,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0049D8C61BA6C1A100FFBD93 /* Assets.xcassets in Resources */,
-				0049D8C91BA6C1A100FFBD93 /* Main.storyboard in Resources */,
+				00146EAD231A93AD00F07429 /* Assets.xcassets in Resources */,
+				00146EAE231A93AD00F07429 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,18 +131,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0049D8C41BA6C1A100FFBD93 /* ViewController.swift in Sources */,
-				0049D8C21BA6C1A100FFBD93 /* AppDelegate.swift in Sources */,
+				00146EAF231A93AD00F07429 /* AppDelegate.swift in Sources */,
+				00146EAC231A93AD00F07429 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0049D8C71BA6C1A100FFBD93 /* Main.storyboard */ = {
+		00146EA8231A93AD00F07429 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0049D8C81BA6C1A100FFBD93 /* Base */,
+				00146EA9231A93AD00F07429 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -197,7 +197,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -246,7 +246,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -259,8 +259,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Icon Size Tester/Info.plist";
+				INFOPLIST_FILE = MacIconPreviewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.kaishin.Icon-Size-Tester";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -273,8 +274,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Icon Size Tester/Info.plist";
+				INFOPLIST_FILE = MacIconPreviewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.kaishin.Icon-Size-Tester";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -284,7 +286,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0049D8B91BA6C1A100FFBD93 /* Build configuration list for PBXProject "Icon Size Tester" */ = {
+		0049D8B91BA6C1A100FFBD93 /* Build configuration list for PBXProject "MacIconPreviewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0049D8CB1BA6C1A100FFBD93 /* Debug */,
@@ -293,7 +295,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0049D8CD1BA6C1A100FFBD93 /* Build configuration list for PBXNativeTarget "Icon Size Tester" */ = {
+		0049D8CD1BA6C1A100FFBD93 /* Build configuration list for PBXNativeTarget "MacIconPreviewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0049D8CE1BA6C1A100FFBD93 /* Debug */,
