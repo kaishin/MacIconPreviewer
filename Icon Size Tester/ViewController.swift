@@ -6,7 +6,7 @@ class ViewController: NSViewController {
     super.viewDidLoad()
   }
 
-  override var representedObject: AnyObject? {
+  override var representedObject: Any? {
     didSet {
     }
   }
